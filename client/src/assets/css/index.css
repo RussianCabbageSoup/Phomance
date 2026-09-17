@@ -1,0 +1,23 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: 'FreeMonospaced';
+    src: url('../fonts/FreeMonospaced.otf') format('opentype'),
+        url('../fonts/FreeMonospaced.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'FreeMonospaced';
+    src: url('../fonts/FreeMonospacedBold.otf') format('opentype'),
+        url('../fonts/FreeMonospacedBold.ttf') format('truetype');
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap;
+}
