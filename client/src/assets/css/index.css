@@ -1,8 +1,11 @@
-* {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-}
+@import url(header.css);
+@import url(sidebar.css);
+@import url(nav.css);
+
+* { padding: 0; margin: 0; box-sizing: border-box; }
+button { padding: 0; margin: 0; border: none; background: none; font: inherit; color: inherit; cursor: pointer;  }
+img { display: block; }
+li { list-style: none; }
 
 @font-face {
     font-family: 'FreeMonospaced';
@@ -20,4 +23,20 @@
     font-weight: 700;
     font-style: normal;
     font-display: swap;
+}
+
+html {
+    height: 100%;
+}
+
+body {
+    background: #262424;
+    color: #fff;
+    font-family: 'FreeMonospaced', monospace, sans-serif;
+    height: 100%;
+    overflow: hidden;
+}
+
+.container {
+    margin: 0 2rem;
 }
